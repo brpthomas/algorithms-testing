@@ -11,6 +11,12 @@ class LinkedList {
 constructor(comparatorFunction) {
 	/** @let LinkedListNode */
 	this.head = null; 
+
+	/** @let LinkedListNode */ 
+	this.tail = null; 
+
+	this.compare = new Comparator(comparatorFunction); 
+
+	}
 	
-}
 }
